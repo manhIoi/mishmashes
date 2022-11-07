@@ -1,0 +1,12 @@
+{
+  "name": "mishmashes",
+  "version": "1.0.0-beta1",
+  "author": "manhloi5501 <manhloi0505@gmail.com>",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "license": "ISC"
+}
