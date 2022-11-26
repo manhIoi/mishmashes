@@ -6,6 +6,7 @@
 
 const SingleTonPromise = require('./src/SingletonPromise');
 const parseSafe = require('./src/parseSafe');
+const hash = require('./src/hash');
 
 const demo = () => {};
 demo();
@@ -13,4 +14,5 @@ demo();
 module.exports = {
     SingleTonPromise,
     parseSafe,
+    hash,
 };
