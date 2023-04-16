@@ -7,12 +7,15 @@
 const SingleTonPromise = require('./src/SingletonPromise');
 const parseSafe = require('./src/parseSafe');
 const hash = require('./src/hash');
+const { Subject, ObserverData } = require('./src/observer');
 
 const demo = () => {};
 demo();
 
 module.exports = {
-    SingleTonPromise,
-    parseSafe,
-    hash,
+  SingleTonPromise,
+  parseSafe,
+  hash,
+  Subject,
+  ObserverData,
 };
